@@ -23,16 +23,16 @@ const SnowplowInstall = ({ namespace, collector, config }) => (
   />
 );
 SnowplowInstall.propTypes = { namespace: PropTypes.string, collector: PropTypes.string, config: PropTypes.object };
-SnowplowInstall.defaultProps = { namespace: 'cf', collector: '', config: {} };
+SnowplowInstall.defaultProps = { namespace: 'sp', collector: '', config: {} };
 
 exports.onRenderBody = ({ setHeadComponents }, { namespace, collector, config }) => {
   return setHeadComponents([
-    <JSTrackerFile key="gatsby-plugin-snowplow-jsfile" />,
+    <JSTrackerFile key="gatsby-plugin-snowplow-bc-jsfile" />,
     <SnowplowInstall
       namespace={namespace}
       collector={collector}
       config={config}
-      key="gatsby-plugin-snowplow-install"
+      key="gatsby-plugin-snowplow-bc-install"
     />,
   ]);
 };

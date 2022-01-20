@@ -4,9 +4,9 @@ Gatsby plugin to add Snowplow tracker to your site.
 
 ## Install
 
-`npm install --save gatsby-plugin-snowplow` or
+`npm install --save gatsby-plugin-snowplow-bc` or
 
-`yarn add gatsby-plugin-snowplow`
+`yarn add gatsby-plugin-snowplow-bc`
 
 ## How to use
 
