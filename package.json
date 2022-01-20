@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-snowplow",
+  "name": "gatsby-plugin-snowplow-bc",
   "version": "1.0.0",
   "keywords": [
     "gatsby",
@@ -7,8 +7,7 @@
   ],
   "author": "Gerald Yeo <gerald.yeo@gmail.com>",
   "repository": {
-    "type": "git",
-    "url": "git@github.com:geraldyeo/gatsby-plugin-snowplow.git"
+    "type": "git"
   },
   "main": "index.js",
   "license": "MIT",
