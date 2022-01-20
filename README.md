@@ -16,13 +16,11 @@ plugins: [
 	{
 		resolve: "gatsby-plugin-snowplow-bc",
 		options: {
-			hostname: "//d1fc8wv8zag5ca.cloudfront.net",
-			version: "2.9.0",
-			namespace: "cf",
+			namespace: "sp",
 			collector: "d3rkrsqld9gmqf.cloudfront.net",
 			config: {
 				appId: "cfe23a",
-  			platform: "mob"
+  				platform: "web"
 			}
 		}
 	}

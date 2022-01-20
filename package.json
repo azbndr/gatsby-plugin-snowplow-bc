@@ -14,7 +14,6 @@
   "scripts": {
     "build": "babel src --out-dir .",
     "watch": "yarn run build -w",
-    "prepublishOnly": "cross-env NODE_ENV=production yarn run build",
     "publish": "semantic-release",
     "publish:dry-run": "semantic-release --debug --dry-run --no-ci"
   },
