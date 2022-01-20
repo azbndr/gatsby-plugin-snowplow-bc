@@ -14,7 +14,7 @@ Gatsby plugin to add Snowplow tracker to your site.
 // In your gatsby-config.js
 plugins: [
 	{
-		resolve: "gatsby-plugin-snowplow",
+		resolve: "gatsby-plugin-snowplow-bc",
 		options: {
 			hostname: "//d1fc8wv8zag5ca.cloudfront.net",
 			version: "2.9.0",
