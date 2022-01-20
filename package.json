@@ -41,5 +41,6 @@
       "@semantic-release/github",
       "@semantic-release/npm"
     ]
-  }
+  },
+  "description": "Gatsby plugin to add Snowplow tracker to your site."
 }
