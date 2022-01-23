@@ -16,10 +16,9 @@ plugins: [
 	{
 		resolve: "gatsby-plugin-snowplow-bc",
 		options: {
-			host: "//d1fc8wv8zag5ca.cloudfront.net",
-    		version: "2.10.2",
+			host: "//host.cdn.net", //host for the sp.js
 			namespace: "sp",
-			collector: "//d3rkrsqld9gmqf.cloudfront.net",
+			collector: "//host.cdn.net", //host for the collector
 			config: {
 				appId: "myAppId",
 			}
