@@ -13,9 +13,7 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src --out-dir .",
-    "watch": "yarn run build -w",
-    "publish": "semantic-release",
-    "publish:dry-run": "semantic-release --debug --dry-run --no-ci"
+    "watch": "yarn run build -w"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
